@@ -2,6 +2,7 @@
 
 @import url("./cabecalho.css");
 @import url("./conteudo__introducao.css");
+@import url("./conteudo__habilidades__principais.css");
 
 :root {
     --cinza-claro: #e7f5fe;
