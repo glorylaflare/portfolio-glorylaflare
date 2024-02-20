@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adicionar favicon -->
+    <title>Portfólio de Marcelo</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+</head>
+<body>
+    <header class="cabecalho" id="cabecalho">
+        <div class="cabecalho__logo">
+            <b class="cabecalho__logo__nome"><span>Glo</span>ry</b>
+        </div>
+        <div class="cabecalho__menu">
+            <span class="material-symbols-outlined" id="menu-hamburguer">
+                menu
+            </span>
+        </div>
+        <div class="cabecalho__menu__aberto" id="menu-aberto">
+            <ul>
+                <li class="cabecalho__menu__link">
+                    <a href="#">Início</a></li>
+                <li class="cabecalho__menu__link" id="scroll-to-sobre_mb">
+                    <a href="#">Sobre</a></li>
+                <li class="cabecalho__menu__link" id="scroll-to-habilidades_mb">
+                    <a href="#">Habilidades</a></li>
+                <li class="cabecalho__menu__link" id="scroll-to-projetos_mb">
+                    <a href="#">Projetos</a></li>
+                <li class="cabecalho__menu__link">
+                    <a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo__introducao">
+            <div class="conteudo__introducao__textos">
+                <img class="conteudo__imagem" src="./assets/images/template/template.png" alt="Imagem template">
+                <div>
+                    <p class="conteudo__introducao__intro">Olá, Meu nome é</p>
+                    <h1 class="conteudo__introducao__titulo">Marcelo Gonçalves</h1>
+                    <span class="conteudo__introducao__profissao">Desenvolvedor Back-End</span>
+                </div>
+
+                <!-- Editar link do Ver mais -->
+                <p class="conteudo__introducao__descricao">Estou em um processo constante de aprendizado, visando a minha especialização em back-end com Java e Spring. Ao longo da minha jornada foram diversos projetos e cursos nos quais me envolvi, buscando melhorar minhas técnicas como desenvolvedor. Minha mais recente conquista foi ser aprovado no programa ONE da Oracle. <a class="conteudo__introducao__ancora" href="./page/sobre.html">Saiba mais...</a></p>
+                <button class="conteudo__introducao__curriculo" id="curriculo-botao">
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+                    Download CV
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/8265838916.js" crossorigin="anonymous"></script>
+    <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/scrollTo.js"></script>
+</body>
+</html>

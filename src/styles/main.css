@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url("./header.css");
+@import url("./main-content.css");
+
+:root {
+    --cinza-claro: #e7f5fe;
+    --cinza-escuro: #252729;
+    --cinza-azulado: #878ca3;
+    --cinza-medio: #2c2e30;
+    --salmao: #fd7867;
+    --laranja: #ffb877;
+    --branco: #ffffff;
+
+    --fonte-Kanit: 'Kanit', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+body {
+    background-color: var(--cinza-claro);
+    margin: 0 2rem;
+}
