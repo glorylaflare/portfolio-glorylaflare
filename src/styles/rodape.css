@@ -1,0 +1,102 @@
+.rodape {
+    background-color: var(--cinza-escuro);
+    margin: -2rem -2rem 0 -2rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--cinza-claro);
+}
+
+.rodape__logo__botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape__botao__home {
+    background-color: transparent;
+    border: .12rem solid var(--cinza-claro);
+    padding: .4rem .5rem 0 .5rem;
+    color: var(--cinza-claro);
+    cursor: pointer;
+}
+
+.rodape__botao__home .material-symbols-outlined {
+    font-size: 1rem;
+}
+
+.rodape__logo__nome {
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.rodape__logo__nome span {
+    color: var(--cinza-escuro);
+    font-weight: 800;
+}
+
+.rodape__logo__nome::after {
+    content: "";
+    position: absolute;
+    top: -.45rem;
+    left: -.8rem;
+    z-index: -1;
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: var(--cinza-claro);
+    border-radius: 50%;
+}
+
+.rodape__contact__infos {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    margin-bottom: 1rem;
+}
+
+.rodape__info__sociais p {
+    font-weight: 300;
+    font-size: .8rem;
+}
+
+.rodape__info__sociais .redes__sociais__titulo {
+    margin-bottom: .6rem;
+    font-weight: 600;
+}
+
+.redes__sociais__botoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.rede__sociais__botao {
+    padding: .3rem .5rem;
+    background-color: transparent;
+    border: .1rem solid var(--cinza-medio);
+    font-size: 1.2rem;
+    
+}
+
+.rede__sociais__botao > a > i {
+    color: var(--cinza-claro);
+}
+
+.rodape__direitos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.rodape__divisor hr {
+    background-color: var(--cinza-medio);
+    height: .2rem;
+    border: none;
+}
+
+.rodape__direitos p {
+    font-size: .7rem;
+    text-align: justify;
+}
