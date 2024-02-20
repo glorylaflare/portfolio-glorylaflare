@@ -1,0 +1,80 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+    color: var(--cinza-escuro);
+}
+
+.conteudo__imagem {
+    width: 100%;
+}
+
+.conteudo__introducao {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 2rem;
+}
+
+.conteudo__introducao__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.conteudo__introducao__intro {
+    font-weight: 400;
+    margin-bottom: -1rem;
+}
+
+.conteudo__introducao__titulo {
+    font-family: var(--fonte-Kanit);
+    font-size: 2.3rem;
+    margin-bottom: -1rem;
+}
+
+.conteudo__introducao__subtitulo {
+    font-size: .8rem;
+    margin-top: .3rem;
+}
+
+.conteudo__introducao__profissao {
+    color: var(--salmao);
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.conteudo__introducao__descricao {
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.conteudo__introducao__ancora {
+    color: var(--cinza-escuro);
+}
+
+.conteudo__introducao__curriculo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    padding: 1rem 2.2rem;
+    background-color: var(--cinza-escuro);
+    color: var(--cinza-claro);
+    border: none;
+    border-radius: 5rem;
+    margin-top: .8rem;
+    cursor: pointer;
+}
+
+.conteudo__introducao__curriculo .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: var(--cinza-claro);
+    font-size: 1.2rem;
+}
