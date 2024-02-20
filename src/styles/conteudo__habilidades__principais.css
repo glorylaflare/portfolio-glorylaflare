@@ -1,0 +1,36 @@
+.conteudo__principais__habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden !important;
+    z-index: 1;
+    margin: 0 -2rem;
+}
+
+.conteudo__principais__habilidades:after {
+    content: "";
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    height: 5rem;
+    background-color: var(--laranja);
+    z-index: -1;
+}
+
+.conteudo__principais__habilidades__lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--cinza-escuro);
+    height: 5rem;
+    margin: 5rem -2rem 2rem -2rem;
+    width: 110%;
+    transform: rotate(-5deg);
+}
+
+.habilidades__imagem {
+    width: 30%;
+    transition: transform 0.5s ease;
+}
