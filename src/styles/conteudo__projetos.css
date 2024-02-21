@@ -1,0 +1,109 @@
+.conteudo__projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--branco);
+    gap: 2rem;
+    margin: 0 -2rem;
+    padding-bottom: 4rem;
+}
+
+.conteudo__projetos__titulo {
+    font-size: 2rem;
+    font-family: var(--fonte-Kanit);
+    margin-top: 3rem;
+}
+
+.conteudo__projetos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+.conteudo__projetos__cards__list {
+    padding-left: 4rem;
+}
+
+.conteudo__projetos__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    gap:.6rem;
+}
+
+.conteudo__projetos__card__imagem {
+    width: 20rem;
+    max-height: 10rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: 0 top;
+    border: 1px solid var(--off-white);
+}
+
+.conteudo__projetos__card.secundario div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:.6rem;
+}
+
+.conteudo__projetos__card__titulo a {
+    font-size: 1.2rem;
+    font-family: var(--fonte-Kanit);
+    text-decoration: none;
+    color: var(--cinza-escuro);
+}
+
+.conteudo__projetos__card__descricao {
+    font-size: .8rem;
+    color: var(--cinza-azulado);
+}
+
+.conteudo__projetos__infos {
+    display: flex;
+    gap: 3rem;
+    color: var(--cinza-azulado);
+    margin: .3rem 0;
+}
+
+.conteudo__projetos__card.secundario div > .conteudo__projetos__infos {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.conteudo__projetos__infos p {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    font-size: .7rem;
+}
+
+.conteudo__projetos__infos p > .material-symbols-outlined {
+    font-size: 1.1rem;
+}
+
+.conteudo__projetos__github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background-color: transparent;
+    padding: .4rem 1rem;
+    border: .1rem solid var(--cinza-escuro);
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.conteudo__projetos__github i {
+    font-size: 1rem;
+}
