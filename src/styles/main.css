@@ -5,6 +5,7 @@
 @import url("./conteudo__habilidades__principais.css");
 @import url("./conteudo__sobremim.css");
 @import url("./conteudo__habilidades.css");
+@import url("./conteudo__projetos.css");
 @import url("./rodape.css");
 
 :root {
@@ -15,6 +16,7 @@
     --salmao: #fd7867;
     --laranja: #ffb877;
     --branco: #ffffff;
+    --off-white: #e4e4e4;
 
     --fonte-Kanit: 'Kanit', sans-serif;
 }
