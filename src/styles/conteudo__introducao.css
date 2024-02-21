@@ -32,7 +32,7 @@
 .conteudo__introducao__titulo {
     font-family: var(--fonte-Kanit);
     font-size: 2.3rem;
-    margin-bottom: -1rem;
+    margin-bottom: -.5rem;
 }
 
 .conteudo__introducao__subtitulo {
