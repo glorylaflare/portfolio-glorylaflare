@@ -1,0 +1,68 @@
+.conteudo__habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden !important;
+    gap: 2rem;
+    margin: 0 -2rem;
+    margin-bottom: 3rem;
+}
+
+.conteudo__habilidades__titulo {
+    font-size: 2rem;
+    font-family: var(--fonte-Kanit);
+}
+
+.conteudo__habilidades__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.conteudo__habilidades__card.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--branco);
+    padding: 1rem;
+    width: 80%;
+    gap: .6rem;
+    border-radius: 1.5rem;
+}
+
+.conteudo__card__imagem {
+    margin: .6rem;
+}
+
+.conteudo__card__descricao {
+    font-weight: 300;
+}
+
+.conteudo__card__nivel {
+    padding: .2rem .6rem;
+    border-radius: 1rem;
+    font-size: .9rem;
+    color: var(--branco);
+}
+.conteudo__card__nivel {
+    background-color: var(--cinza-escuro);
+}
+
+.swiper {
+    width: 80%;
+    height: 100%;
+    user-select: none;
+}
+
+.slide-container.swiper {
+    max-width: 25rem;
+    width: 100%;
+    padding: 0 0 2.5rem 0;
+}
+
+.slide-content {
+    margin: 0 2rem;
+}
