@@ -6,11 +6,12 @@
 - [ ] Adicionar notação ver mais em cada especialidade com um envio para uma página mostrando tudo que fiz para obter tal nível de habilidade
 - [ ] Foto principal dinâmica, havendo uma animação com 2 frames
 - [ ] Adicionar datas dinâmicas tanto no rodapé, quanto no sobre mim
+- [ ] ScrollTo está bugado...
 
 ### Correções Header
 - [x] Melhorar menu hambúrguer do mobile
 - [x] Ajustar hover do botão hambúrguer
-- [ ] Ao clicar no menu hambúrguer o símbolo se transformar em um X, e abri um menu que ocupe toda a tela.
+- [x] Ao clicar no menu hambúrguer o símbolo se transformar em um X, e abri um menu que ocupe toda a tela.
 - [ ] Ao clicar em uma opção do menu hambúrguer, o menu deve ser escondido
 
 ### Correções Main
