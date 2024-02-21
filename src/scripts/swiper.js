@@ -8,11 +8,3 @@ const swiper__principal = new Swiper('.slide-content', {
         dynamicBullets: true,
     }
 });
-
-const swiper__destaque = new Swiper(".mySwiper", {
-    centeredSlides: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    }
-});
